@@ -1,10 +1,11 @@
-  <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>My Appstore</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Appstore - World's Only Store That Publishes Student's Apps</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -23,7 +24,6 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
   <meta name="theme-color" content="#712cf9">
-
 </head>
 
 <body>
@@ -40,132 +40,285 @@
     </a>
 
     <ul class="nav nav-pills">
+      <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+        <input type="search" class="form-control form-control-dark text-bg-light" placeholder="Search Your App..."
+          aria-label="Search">
+      </form>
       <li class="nav-item"><a href="/" class="nav-link active" aria-current="page">Home</a></li>
-      <li class="nav-item"><a href="#hanging-icons" class="nav-link">Features</a></li>
-      <li class="nav-item"><a href="app.html" class="nav-link">Apps</a></li>
-      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="#apps" class="nav-link">Apps</a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link">FAQs</a></li>
     </ul>
-    <div class="row flex-lg-row-reverse align-items-center g-0 py-4">
-      <div class="col-8 col-sm-5 col-lg-6">
-        <img src="https://www.sketchappsources.com/resources/source-images-plus1/ultimate-app-icon-set-1.jpg"
-          class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="800" height="900" loading="lazy">
-      </div>
-      <div class="col-lg-5">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-2 mb-3"> Welcome to My Appstore </h1>
-        <p class="lead"> My Appstore is India's Top Choice Store for Downloading Apps Made by Students. This is the only
-          appstore in the world that allows you to download apps (made by students) in the most secure & safe manner.
-        </p>
-        <a href="app.html">
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Get Started</button>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="container px-4 py-5" id="hanging-icons">
-      <h2 class="pb-2 border-bottom">Why we are India's Top Choice?</h2>
-      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="col d-flex align-items-start">
-          <div
-            class="icon-square text-body-emphasis bg-body-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <svg class="bi" width="1em" height="1em">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download"
-                viewBox="0 0 16 16">
-                <path
-                  d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5">
-                </path>
-                <path
-                  d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z">
-                </path>
-              </svg>
-            </svg>
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Fast Downloading Speeds</h3>
-            <p>We do not run useless cookies & hence your full internet connection's speed is used with us resulting in
-              faster downloads...</p>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div
-            class="icon-square text-body-emphasis bg-body-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <svg class="bi" width="1em" height="1em">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-shield-check" viewBox="0 0 16 16">
-                <path
-                  d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56" />
-                <path
-                  d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0" />
-              </svg>
-            </svg>
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Safety & Security</h3>
-            <p>We only allow those apps on our appstore that are safe & secure and also do not collect customer's data.
-              Everything is end-to-end encrypted.</p>
+  </header>
+
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path
+          d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z">
+        </path>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path
+          d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z">
+        </path>
+        <path
+          d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z">
+        </path>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path
+          d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z">
+        </path>
+      </symbol>
+    </svg>
+
+    <main>
+
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Welcome to My Appstore!!</h1>
+            <p class="lead text-body-secondary">Are you Ready? Get, Set and Go! Scroll your screen down to see all apps
+              made by students that we offer!!</p>
+            <p>
+              <a href="#apps" class="btn btn-primary my-2">Yes! I'm Ready</a>
+              <a href="about.html" class="btn btn-secondary my-2">Go to FAQs</a>
+            </p>
           </div>
         </div>
-        <div class="col d-flex align-items-start">
-          <div
-            class="icon-square text-body-emphasis bg-body-primary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <svg class="bi" width="1em" height="1em">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                class="bi bi-google-play" viewBox="0 0 16 16">
-                <path
-                  d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055zM1 13.396V2.603L6.846 8zM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27" />
-              </svg>
-              <use xlink:href="#tools"></use>
-            </svg>
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Small Sized Apps</h3>
-            <p>We offer best quality apps with amazing graphic quality within the range of 2MB - 5MB with max. limit
-              upto 67 MB. Our apps do not occupy much of your device's storage.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="album py-5 bg-body-tertiary">
-      <div class="container">
-        <h1>Our Top Downloaded Apps!!</h1>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="https://notionthings.com/wp-content/uploads/2022/01/info.jpg" width="100%" height="100%">
-              <title>BMI Calculator</title>
-              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                dy=".3em"></text>
-              </svg>
-              <div class="card-body">
-                <h1>BMI Calculator</h1>
-                <p class="card-text">
-                  With this BMI Calculator, you can calculate and evaluate your BMI (Body Mass Index) simply by entering
-                  age, gender, height and weight. It is designed based on the WHO BMI classification and supports both
-                  metric and imperial units.Being overweight or obese increases the risk of hypertension, heart disease
-                  and diabetes. The sooner you find your ideal weight and try to achieve it, the better. BMI Calculator
-                  is perfect for you to know your BMI, check and adjust your diet and track your progress until you
-                  reach your final goal.Download this app now as a useful starting point for your weight control and
-                  health improvement.
-                </p>
-                Created By: Harshit Kumar
-                <br>
-                Size: 3.49 MB
-                <h1></h1>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a href="BMI.apk">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                          class="bi bi-download" viewBox="0 0 16 16">
-                          <path
-                            d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5">
-                          </path>
-                          <path
-                            d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z">
-                          </path>
-                        </svg>
-                        Download</button>
-                    </a>
+      </section>
+
+      <div class="album py-5 bg-body-tertiary">
+        <div id="apps" class="container">
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://cdn-icons-png.flaticon.com/512/10476/10476452.png" width="100%" height="100%">
+                <div class="card-body">
+                  <p class="card-text"> With this BMI Calculator, you can calculate and evaluate your BMI (Body Mass
+                    Index) simply by entering
+                    age, gender, height and weight. It is designed based on the WHO BMI classification and supports both
+                    metric and imperial units.The sooner you find your ideal weight and try to achieve it, the better.
+                    BMI
+                    Calculator
+                    is perfect for you to know your BMI, check and adjust your diet and track your progress until you
+                    reach your final goal.Download this app now as a useful starting point for your weight control and
+                    health improvement.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="BMI.apk">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Download Now!</button>
+                      </a>
+                    </div>
+                    <small class="text-body-secondary">Created by Harshit Kumar</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://cdn-icons-png.flaticon.com/512/5027/5027426.png" width="100%" height="100%">
+                <div class="card-body">
+                  <p class="card-text"> The free offline English dictionary application explains the meaning of English
+                    words! Definitions are based on English Wiktionary. Fast search, easy and functional user interface,
+                    optimized also for tablets.
+                    Ready to go: it works offline without any further file to download!
+                    <br>
+                    <br>
+                    Features:
+                    <br>
+                    ♦ More than 445000 english definitions and large number of inflected forms
+                    <br>
+                    ♦ Random search button (shuffle), useful to learn new words
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="Dictionary.apk">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Download Now!</button>
+                      </a>
+                    </div>
+                    <small class="text-body-secondary">Created by Harshit Kumar</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/15/7e/3b/157e3b8a-bbf5-dc64-b2d0-ce6e84474e25/AppIcon-0-0-1x_U007emarketing-0-0-0-5-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.jpeg/512x512bb.jpg"
+                  width="100%" height="100%">
+                <div class="card-body">
+                  <p class="card-text"> Use Speedtest® for a quick, easy, one-tap connection internet speed
+                    test—accurate anywhere thanks to our global server network.
+
+                    Explore mobile network coverage with Speedtest Maps based on real-world data gathered by the
+                    Speedtest app. See performance by provider to find out where you’re likely to experience strong
+                    connectivity. Easily switch between providers and regions to compare coverage in the locations you
+                    frequent.
+                    Take a video test to get actionable insights that help you optimize your online video experience.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="Internet_Speed_Test.apk">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Download Now!</button>
+                      </a>
+                    </div>
+                    <small class="text-body-secondary">Created by Harshit Kumar</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqllFfHrBrw9cD2ixOG-IYmjo8MxLuOnKtUg&usqp=CAU"
+                  width="100%" height="100%">
+                <div class="card-body">
+                  <p class="card-text"> Sound level meter(or SPL) app is shows a decibel values by measure the
+                    environmental noise, displays measured dB values in various forms.
+                    Features:
+                    - Indicates decibel by gauge
+                    - Display the current noise reference
+                    - Can calibrate the decibel for each devices
+                    Microphones in most android devices are aligned to human voice. The maximum values are limited by
+                    the device. Very loud sounds(over ~90 dB) may not be recognized in most device. So please use it as
+                    just an auxiliary tools. If you need more accurate dB values, we recommend a actual sound level
+                    meter for that.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="Sound_Meter.apk">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Download Now!</button>
+                      </a>
+                    </div>
+                    <small class="text-body-secondary">Created by Harshit Kumar</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://cdn-icons-png.flaticon.com/512/3300/3300249.png" width="100%" height="100%">
+                <div class="card-body">
+                  <p class="card-text"> This pedometer uses the built-in sensor to count your steps. No GPS tracking, so
+                    it can greatly save battery. It also tracks your burned calories, walking distance and time, etc.
+
+                    Just tap the start button, and it starts counting your steps. Whether your phone is in your hand,
+                    bag, pocket or armband, it can auto-record your steps even your screen is locked.
+                    <br>
+                    <br>
+                    This step counter uses the built-in sensor to count your steps. No GPS tracking, so it barely
+                    consumes battery power.
+                    All features are FREE. You can use all features without having to pay for them.
+                    No sign-in required.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="Steps.apk">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Download Now!</button>
+                      </a>
+                    </div>
+                    <small class="text-body-secondary">Created by Harshit Kumar</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://cdn-icons-png.flaticon.com/512/2241/2241465.png" width="100%" height="100%">
+                <div class="card-body">
+                  <p class="card-text"> Tic Tac Toe 2 Player: XOXO is a classic puzzle game, also known as XO or Noughts
+                    and Crosses. If you are an adult, you will get your favorite old memories of Tic Tac Toe. It is the
+                    best digital version of the classic Tic Tac Toe game that anyone can play online or offline.
+                    <br>
+                    <br>
+                    Features:
+                    <br>
+                    ✨Play with your friends & family
+                    <br>
+                    🧡Elegant fresh screen with original designs
+                    <br>
+                    💡The player who places a required amount of symbols in a row respective marks in a horizontal,
+                    vertical, or diagonal row, wins the XOXO game.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="Tic_Tac_Toe.apk">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Download Now!</button>
+                      </a>
+                    </div>
+                    <small class="text-body-secondary">Created by Harshit Kumar</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em">Thumbnail</text>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em">Thumbnail</text>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                  xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                    dy=".3em">Thumbnail</text>
+                </svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
                   </div>
                 </div>
               </div>
@@ -173,7 +326,27 @@
           </div>
         </div>
       </div>
-  </header>
+
+    </main>
+
+    <footer class="text-body-secondary py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="#">Back to top</a>
+        </p>
+        <p class="mb-1">My Appstore © 2024</p>
+        <p class="mb-0">New to My Appstore? <a href="/"> Visit the FAQs Section</a> or read our <a
+            href="/download.html">getting started
+            guide</a>.</p>
+      </div>
+    </footer>
+    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+
+
+
+  </body>
 </body>
 
 </html>
