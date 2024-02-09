@@ -8,7 +8,7 @@ const user = netlifyIdentity.currentUser();
 
 function displayLoggedIn() {
   const user = netlifyIdentity.currentUser();
-  if (user != null) {
+  if (user) {
     document.getElementById('loginBtn').innerText = "Log Out";
     document.getElementById('user').innerText = user;
   }
