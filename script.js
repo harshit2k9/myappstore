@@ -1,13 +1,21 @@
 // Open the modal
+
 netlifyIdentity.open();
 
 // Get the current user:
 // Available after on('init') is invoked
 const user = netlifyIdentity.currentUser();
 
+function displayLoggedIn() {
+  const user = netlifyIdentity.currentUser();
+  if (user) {
+    document.getElementById('loginBtn').innerText = "Log Out";
+    document.getElementById('user').innerText = user.user_metadata.full_name
+  }
+}
 // Bind to events
 netlifyIdentity.on('init', user => console.log('init', user));
-netlifyIdentity.on('login', user => console.log('login', user));
+netlifyIdentity.on('login', user => console.log('login', user), displayLoggedIn());
 netlifyIdentity.on('logout', () => console.log('Logged out'));
 netlifyIdentity.on('error', err => console.error('Error', err));
 netlifyIdentity.on('open', () => console.log('Widget opened'));
@@ -26,7 +34,7 @@ netlifyIdentity.logout();
 // Refresh the user's JWT
 // Call in on('login') handler to ensure token refreshed after it expires (1hr)  
 // Note: this method returns a promise.
-netlifyIdentity.refresh().then((jwt)=>console.log(jwt))
+netlifyIdentity.refresh().then((jwt) => console.log(jwt))
 
 // Change language
 netlifyIdentity.setLocale('en');
